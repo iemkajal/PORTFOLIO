@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kajal Barthwal - Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            background-color: #121212;
+            color: #e4e4e4;
+        }
+
+        header {
+            background: #1e1e2f;
+            padding: 2rem 0;
+            text-align: center;
+            border-bottom: 2px solid #4caf50;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #4caf50;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            color: #bbbbbb;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+            background: #1a1a2e;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-weight: 600;
+            color: #e4e4e4;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #4caf50;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #4caf50;
+            margin-bottom: 1rem;
+        }
+
+        .about, .skills, .projects, .contact {
+            margin-bottom: 4rem;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            color: #cccccc;
+        }
+
+        .skills ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 0;
+        }
+
+        .skills ul li {
+            background: #222;
+            padding: 1rem;
+            border-radius: 8px;
+            font-weight: 500;
+            color: #e4e4e4;
+            flex: 1 1 calc(33.333% - 1rem);
+            text-align: center;
+        }
+
+        .projects .project-item {
+            background: #222;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .projects .project-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .projects .project-item h3 {
+            font-size: 1.5rem;
+            color: #4caf50;
+            margin-bottom: 0.5rem;
+        }
+
+        .projects .project-item p {
+            color: #bbbbbb;
+        }
+
+        .contact p {
+            font-size: 1.1rem;
+            color: #cccccc;
+        }
+
+        .contact a {
+            color: #4caf50;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        footer {
+            background: #1e1e2f;
+            text-align: center;
+            padding: 1.5rem 0;
+            border-top: 2px solid #4caf50;
+        }
+
+        footer p {
+            color: #bbbbbb;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kajal Barthwal</h1>
+        <p>Full Stack Developer | Delivering Excellence in Code</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am Kajal Barthwal, a Full Stack Developer based in Chandigarh with over 5 years of experience. I specialize in building scalable, user-centric web applications. My goal is to create impactful solutions through clean, efficient code and a strong focus on user experience.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>SQL & Database Management</li>
+            <li>Python</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Java</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>RESTful APIs</li>
+            <li>HTML5 & CSS3</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-item">
+            <h3>Food Donation Platform</h3>
+            <p>Developed a platform to connect donors with NGOs, streamlining food and resources donation processes.</p>
+        </div>
+        <div class="project-item">
+            <h3>Real-Time Analytics Dashboard</h3>
+            <p>Built a data visualization tool to analyze streaming data in real-time using dynamic and interactive charts.</p>
+        </div>
+        <div class="project-item">
+            <h3>Portfolio Website</h3>
+            <p>A responsive, modern website to showcase my skills, projects, and professional experience.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any exciting opportunities or just want to connect, feel free to reach out!</p>
+        <p>Email: <a href="mailto:kajal.barthwal@example.com">kajal.barthwal@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/kajalbarthwal" target="_blank">linkedin.com/in/kajalbarthwal</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kajal Barthwal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
